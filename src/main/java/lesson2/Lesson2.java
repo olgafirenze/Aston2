@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Lesson2 {
     public static void main(String[] args) {
         //printThreeWords();
@@ -8,7 +10,7 @@ public class Lesson2 {
         //numberSign(18);
         //negativeNumber(-125)
         //printString("Мяу", 7);
-        //leapYear_(1978);
+        //leapYear4(1978);
         //arrInversion();
         //arr100();
         //arrLess6();
@@ -89,7 +91,7 @@ public class Lesson2 {
         }
     }
 
-    public static boolean leapYear_ (int year) {
+    public static boolean leapYear4(int year) {
         if (year % 400 == 0) {return true;}
         if (year % 100 == 0) {return false;}
         if (year % 4 ==0) {return true;}
