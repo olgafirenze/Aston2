@@ -43,7 +43,6 @@ public class Park {
         }
     }
 
-
     public Park(String parkName, String city, String street, int building,
                 LocalTime parkOpenTime, LocalTime parkCloseTime) {
         this.parkName = parkName;
