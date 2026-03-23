@@ -3,9 +3,11 @@ package lesson4.Animals;
 public class Animal {
     private static int animalCount = 0;
 
-    String name;
+    protected String name;
+    
     public Animal () {
             }
+    
     public Animal (String name) {
         this.name = name;
         animalCount++;
