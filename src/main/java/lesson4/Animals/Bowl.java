@@ -1,7 +1,8 @@
 package lesson4.Animals;
 
 public class Bowl {
-    int food;
+    private int food;
+    
     public Bowl (int food) {
         this.food = food;
     }
