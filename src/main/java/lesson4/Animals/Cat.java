@@ -3,13 +3,14 @@ package lesson4.Animals;
 public class Cat extends Animal {
    private static int catCount = 0;
 
-    boolean satiety;
+    private boolean satiety;
 
     public Cat (String name, boolean satiety) {
         this.name = name;
         this.satiety = satiety;
         catCount++;
     }
+   
     public Cat (String name) {
         this(name, false);
     }
