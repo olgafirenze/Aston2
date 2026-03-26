@@ -1,4 +1,6 @@
-public class Main {
+package lesson5;
+
+public class Main5 {
 
     public static void main(String[] args) {
         String[][] testArray = {
